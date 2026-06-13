@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Generated at runtime / regenerated from code on first launch
+translations.json
+
+# User-specific and runtime state (not part of the application source)
+comfy_settings.json
+draft.json
+prompt_library.json
+prompt_previews/
+
+# Editor / agent
+.claude/
