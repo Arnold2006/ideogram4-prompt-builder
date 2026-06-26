@@ -1,0 +1,6 @@
+{
+  "title": "Ideogram 4 Prompt Builder",
+  "description": "Desktop GUI for building Ideogram 4 JSON captions with a prompt library and ComfyUI integration",
+  "icon": "eng-vlack.png",
+  "version": "1.0.0"
+}
