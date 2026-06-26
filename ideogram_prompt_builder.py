@@ -2350,7 +2350,8 @@ class PromptBuilder(QMainWindow):
         self.result_label.setStyleSheet(
             "background:palette(base);border:1px solid palette(mid);border-radius:8px;"
         )
-        self.result_label.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        self.result_label.setSizePolicy(QSizePolicy.Policy.Ignored, QSizePolicy.Policy.Ignored)
+        self.result_label.setMinimumSize(0, 0)
         result_layout.addWidget(self.result_label, 1)
         result_actions = QHBoxLayout()
         self.result_save_lib = QPushButton(tr("result.save_lib"))
